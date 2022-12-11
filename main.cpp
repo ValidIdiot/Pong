@@ -33,8 +33,6 @@ int main()
 {
 	InitWindow(800, 600, "Pong");
 	SetWindowState(FLAG_VSYNC_HINT);
-    SetWindowIcon(LoadImage("./icon.ico"));
-	TraceLogLevel(LOG_NONE);
 	
 	Ball ball;
 	ball.x = GetScreenWidth() / 2.0f;
